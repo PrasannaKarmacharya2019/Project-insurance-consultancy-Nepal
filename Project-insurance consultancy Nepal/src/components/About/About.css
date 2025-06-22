@@ -1,0 +1,58 @@
+.about-content{
+    row-gap: 40px;
+}
+
+@media screen and (min-width: 768px){
+    .about-content{
+        text-align: left;
+    }
+    .text {
+ 
+    max-height: 605px;
+}
+
+
+    }
+
+
+@media screen and (min-width: 992px){
+    .about-content{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        column-gap: 60px;
+    }
+}
+
+.content-left img {
+    width: 100%;     
+    height: 450px;     
+    object-fit: contain; 
+    max-width: auto; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.carousel-image {
+    transition: opacity 0.8s ease;
+    opacity: 1;
+}
+.carousel-image.fading {
+    opacity: 0;
+}
+
+.text {
+  text-align: justify;
+    max-height: 915px;
+    opacity: 1;
+    overflow: hidden;
+    transition: max-height 0.6s cubic-bezier(0.4,0,0.2,1), opacity 0.6s;
+}
+
+.show-more-btn {
+    display: block;
+    margin: 1rem auto 0 auto;
+}
+.text.collapsed {
+    max-height: 120px; /* adjust for your shortText height */
+    opacity: 0.7;
+}

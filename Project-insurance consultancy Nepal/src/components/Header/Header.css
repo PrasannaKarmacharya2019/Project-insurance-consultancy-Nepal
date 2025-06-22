@@ -1,0 +1,44 @@
+.header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(36, 36, 36, 0.6), rgba(0, 0, 0, 0.8)), url("../../assets/images/header_main_img.jpg") center/cover no-repeat;
+    
+}
+.header-content .text-lead{
+    margin: 3.2rem 0 4.9rem 0;
+    color: #fbfbfb;
+}
+.header-title{
+    /*font-size: 50px;
+    font-weight: 900;
+    line-height: 1.2;
+  
+    background: linear-gradient(to right, var(--clr-robin-blue), var(--clr-crazy-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    */
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: yellow; /* Set text color to yellow */
+    background: none; /* Remove gradient if you want solid yellow */
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    margin-top: 100px;
+
+  
+}
+.header-btn{
+    align-self: center!important;
+}
+.header-btn span{
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 600px){
+    .header-title{
+        font-size: 50px;
+    }
+    .header-content *{
+        max-width: 920px;
+    }
+}
