@@ -10,6 +10,7 @@ const Features = () => {
             <div className='features-content'>
                 <div className='item-list text-white'>
                     {
+                      
                         sections.features.map(feature => {
                             return (
                                 <SingleFeatures key = {feature.id} {...feature} />

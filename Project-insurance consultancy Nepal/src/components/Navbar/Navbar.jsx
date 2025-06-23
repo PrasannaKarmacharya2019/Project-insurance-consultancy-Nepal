@@ -36,11 +36,16 @@ const Navbar = () => {
                                 <a href="#about">About</a>
                             </li>
                             <li className='text-white'>
-                                <Link to = "/">Features</Link>
+                               
+                                <a href="#services">Features</a>
                             </li>
-                           
                             <li className='text-white'>
-                                <Link to = "/">Contacts</Link>
+                               
+                                <a href="#testimonials">Our Team</a>
+                            </li>
+                            <li className='text-white'>
+                                
+                                 <a href="#contact">Contact</a>
                             </li>
                         </ul>
                         <ul className='navbar-social flex'>

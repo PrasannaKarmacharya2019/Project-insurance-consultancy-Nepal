@@ -133,7 +133,10 @@ input, textarea, select{
 
 /* text colors */
 .text-grey{color: var(--clr-grey);}
-.text-white{color: var(--clr-white);}
+.text-white{
+  color: var(--clr-white);
+  font-size: large;
+}
 .text-robin-blue{color: var(--clr-robin-blue);}
 .text-black{color: var(--clr-black);}
 

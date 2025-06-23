@@ -10,8 +10,10 @@ const Qualities = () => {
             <div className='qualities-content grid'>
                 <div className='content-left'>
                     <div className='section-t text-center'>
-                        <h3>We are Professionals</h3>
-                        <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptates deserunt, molestiae soluta cumque eum.</p>
+                        <h3>Strategy and Vision </h3>
+                        <br />
+                      {/* <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptates deserunt, molestiae soluta cumque eum.</p>  */}
+                    <h5> <i class="fa-solid fa-chess-rook fa-beat fa-xs"></i> Mission Statement</h5>
                     </div>
 
                     <div className='item-list grid text-white'>
@@ -23,9 +25,9 @@ const Qualities = () => {
                                             {quality.icon}
                                         </div>
                                         <div className='item-text'>
-                                            <h3 className='item-title fs-25'>Ideas & Plans</h3>
-                                            <p className='text'>{quality.text}</p>
-                                        </div>
+                                            <h3 className='item-title fs-25'>{quality.title}</h3>
+                                             <p className='text'>{quality.text}</p> 
+                                       </div>
                                     </div>
                                 )
                             })

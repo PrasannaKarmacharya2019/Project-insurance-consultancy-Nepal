@@ -1,47 +1,53 @@
 import images from "./images";
-import {FaPaperPlane, FaEdit, FaRocket, FaShoppingCart, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt} from "react-icons/fa";
+import {FaUsers, FaBriefcase, FaGlobe, FaChartLine, FaUserTie, FaAward, FaEye,FaLightbulb,FaPaperPlane, FaRocket, FaShoppingCart, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt, FaHandshake} from "react-icons/fa";
 import {BiDollarCircle} from "react-icons/bi";
 import {ImMagicWand} from "react-icons/im";
 import {AiOutlineReload} from "react-icons/ai";
+import { AiOutlineStar } from "react-icons/ai";
 
 const gradient = "url(#blue-gradient)" ;
 
 const services = [
+   
     {
         id: 1,
-        icon: <FaPaperPlane style = {{ fill: gradient }} />,
-        title: "Digital Marketing",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        icon: <FaUserTie style = {{ fill: gradient }} />,
+        title: "Values",
+        text: "Our goal from the firm's establishment in 2022 has been to create an organization with a defined vision and strategy that will always look forward and operate at the forefront of Insurance Awareness and be a creative, knowledge-based corporation. Individuals and industries are at the center of our view of knowledge innovation, as the protagonists are the people who research and invent to generate solutions. Our vision evolved over the next few years. Today, Insurance Consultancy Nepal Pvt. Ltd. is a leading service provider, with unmatched competence in all of our sectors of expertise."
     },
-    {
+    
+     {
         id: 2,
-        icon: <BiDollarCircle style = {{ fill: gradient }} />,
-        title: "Trade Shows",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        icon: <FaRocket style = {{ fill: gradient }} />,
+        title: "Business goals & objectives",
+        text: "Looking to the future, we are convinced that insurance Consultancy Nepal Pvt. Ltd. not only has a solid foundation and a clear vision, but also the flexibility to continue to grow and meet the challenges of the new era. Insurance Consultancy Nepal Pvt. Ltd. is forging its own way, with a well-defined future plan."
     },
     {
-        id: 3,
-        icon: <FaRocket style = {{ fill: gradient }} />,
-        title: "Branding",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
-    },
+        id: 3, 
+        icon: <FaHandshake style = {{ fill: gradient }} />,
+        title: "Why Insurance Consultancy?",
+        text: [ "The reasons are:",
+  "- Peace of mind",
+  "- Be Professional",
+  "- Hassel free Claim Settlement"
+]  },
     {
         id: 4, 
-        icon: <FaEdit style = {{ fill: gradient }} />,
-        title: "Content Creation",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        icon: <FaEye style = {{ fill: gradient }} />,
+        title: "Vision Statement",
+        text: "The company's growth and operation are guided by the main corporate principle i.e. Quality, effectiveness, and adaptability to market and technology changes."
     },
     {
         id: 5,
-        icon: <ImMagicWand style = {{ fill: gradient }} />,
-        title: "Grpahic Design",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        icon: <FaAward style = {{ fill: gradient }} />,
+        title: "Quality Policy",
+        text: "The company ensures that the services it provides are of high quality and that the projects it undertakes are carried out using cutting-edge technology."
     },
     {
         id: 6,
-        icon: <FaShoppingCart style = {{ fill: gradient }} />,
-        title: "Media Buying",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        icon: <FaChartLine style = {{ fill: gradient }} />,
+        title: "Experience",
+        text: "Insurance Consultancy Nepal Pvt. Ltd.'s involvement in Nepal projects is a strategic goal and decision. The company's intensive expertise in such operations has ensured that it has the necessary know-how to complete even the most challenging projects successfully."
     }
 ];
 
@@ -55,115 +61,99 @@ const about = [
 const qualities = [
     {
         id: 8,
-        icon: <FaFileAlt style = {{ fill: gradient }} />,
-        title: "Ideas & Plans",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod."
+        icon: <FaLightbulb style = {{ fill: gradient }} />,
+               text: "Our mission is to be Nepal's most successful consulting firm, guided by our four guiding principles: knowledge, effectiveness, reliability, and integrity. For us, a great reason is the use of cutting-edge technology to create ground-breaking services of high quality, as well as the capacity to adapt and evolve to each customer's specific needs. Each project we undertake is accompanied by the accomplishment of our customer's objectives, which we call effectiveness. Our corporate culture is built on the pillars of reliability and integrity. "
     },
     {
         id: 9,
-        icon: <AiOutlineReload style = {{ fill: gradient }}  />,
-        title: "Prompt Strategies",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod."
+        icon: <AiOutlineStar style = {{ fill: gradient }}  />,
+        // title: "Prompt Strategies",
+        text: "The maximization of our customers' value and performance, as well as our continual development, are at the core of our concept. assuring the company's steady advance at a national level. Our mission and vision are served and strengthened by the optimized quality of our provided services, their continuous monitoring and follow-up, the faculty of comprehension of our customers' requirements and needs, the specialization and know-how of our staff, and the constant expansion of our activities. In the consulting industry, we are among the best. We assist our clients in achieving their goals and contribute to their ongoing growth. We strive to improve ourselves on a regular basis."
     }
 ];
 
 const features = [
     {
         id: 10,
-        title: "Digital Marketing",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
+   icon: <FaChartLine style={{ fill: gradient }} />,
+        title: "Growth strategy",
+                   text: "The organization will be able to positively respond to the challenges of current time by utilizing its collected expertise. knowledge, and the dynamics of its partnerships, allowing it to provide experts, state-of-the-art solutions that lead straight to the point of its customers' requirements."
     },
     {
         id: 11,
-        title: "Trade Shows",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
+ icon: <FaGlobe style={{ fill: gradient }} />,
+        title: "Services",
+        text: "At the national and international levels, Insurance Consultancy Nepal Pvt. Ltd. provides scientifically qualitative and verified advisory services to businesses and organizations. The National Programs are separated into two categories: public and private."
     },
     {
         id: 12,
-        title: "Branding",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
-    },
+        title: "Business competitiveness",
+        icon: <FaBriefcase style={{ fill: gradient }} />,
+        text: ["Insurance Consultancy Nepal Pvt. Ltd. customizes its services to the needs of the customer, striving for more effective collaboration while taking into consideration the customer's environment, requirements, and structures:",
+ "- Dedication to the customer",
+        "- Flexibility for the ideal satisfaction of needs, Specialized personnel",
+        "- Possibility of operation in international and multinational environment",
+        "- Adaptability to the operation processes of the customer",
+        "- Flexibility in the mode of delivery",
+        "- Big experience in work of research and technology",
+        "- In order to properly perform each challenge, the organization combines INFRASTRUCTURES, HUMAN RESOURCES, and INTEGRATED PROCESSES."
+    ]
+ },
     {
         id: 13,
-        title: "Content Creation",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
-    }, 
-    {
-        id: 14,
-        title: "Graphic Design",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
-    },
-    {
-        id: 15,
-        title: "Media Buying",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc."
+         icon: <FaUsers style={{ fill: gradient }} />,
+        title: "Management & Human Resources",
+        text: "Mr. BK Shrestha, a Chartered Consultant with a Bachelor of Commerce and a Master of Public Administration, is the firm's Chartered Consultant. Since 1988, he has worked in the insurance industry. He has vast experience and expertise in the Non-Life Insurance market, including positions in Underwriting. Claims, Accounts, and Marketing, as well as counseling and policy development. Finally, Mr. BK Shrestha worked for an insurance company as the Deputy Chief Executive Officer. Insurance Consultancy Nepal Pvt. Ltd.'s staff is made up of high-quality technical experts with significant professional experience. A large number of external collaborators work with the firm. The firm works with a select group of external collaborators/experts who are knowledgeable and experienced in their field. The majority of the external advisers work with the firm on a long-term basis, while some are brought in on a case-by-case basis to help with unique approaches. Insurance Consultancy Nepal Pvt. Ltd. welcomes professionals with at least a bachelor's degree."
+
     }
 ];
 
 const portfolio = [
     {
         id: 16,
-        title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elits",
+         title: "Senior Surveyor Mr Lalit KC visited the Consultancy",
+        text: "",
         image: images.portfolio_img_1,
     },
     {
         id: 17,
-        title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elits",
+        title: "Mr  SK Tamot, former CEO of Sidhdharth Insurance and GIC Insurance visited Consultancy",
+        text: "",
         image: images.portfolio_img_2,
     },
     {
         id: 18,
-        title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elits",
+        title: "Mr Kumar B Khatri, former CEO and Mr Laxman Parajuli, Sr Manager, Ajod Insurance visited Consultancy",
+        text: "",
         image: images.portfolio_img_3,
-    }
+    },
+     
 ];
 
 const testimonials = [
     {
         id: 19,
-        name: "Marie Jordan",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        name: "Mr. Pradip Mohan Dhaubhadel",
+        text: "Sr. Consultant",
         image: images.customer_img_1,
-        rating: 3
+       
     },
     {
         id: 20,
-        name: "Ann Brown",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        name: "BK Shrestha",
+        text: "Chartered Consultant",
         image: images.customer_img_2,
-        rating: 5
+       
     },
     {
         id: 21,
-        name: "Andrew Bill",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        name: "Ms. Sajani Bhadel",
+        text: "Director-Marketing",
         image: images.customer_img_3,
         rating: 2
     },
-    {
-        id: 22,
-        name: "Jason Stawer",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_4,
-        rating: 4
-    },
-    {
-        id: 23,
-        name: "Lisa Green",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_5,
-        rating: 2
-    },
-    {
-        id: 24,
-        name: "Anna Doe",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_6,
-        rating: 4
-    }
+   
+    
 ]
 
 const contact = [

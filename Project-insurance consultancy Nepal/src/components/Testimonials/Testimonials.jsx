@@ -21,8 +21,8 @@ const Testimonials = () => {
         <div className='container'>
             <div className='testimonials-content'>
                 <div className='section-t text-center'>
-                    <h3>Customer Testimonials</h3>
-                    <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero alias voluptatum, tempore dignissimos perferendis ea.</p>
+                    <h3>Meet our Team</h3>
+                    {/* <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero alias voluptatum, tempore dignissimos perferendis ea.</p> */}
                 </div>
 
                 <div className='item-list grid text-white text-center'>
@@ -36,7 +36,7 @@ const Testimonials = () => {
                                     </div>
                                     <h4 className='item-name'>{testimonial.name}</h4>
                                     <p className='item-text text'>{testimonial.text}</p>
-                                    <ul className='flex item-rating flex-center'>
+                                    {/* <ul className='flex item-rating flex-center'>
                                         {
                                             startList.map((star, index) => {
                                                 return (
@@ -44,7 +44,7 @@ const Testimonials = () => {
                                                 )
                                             })
                                         }
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             )
                         })

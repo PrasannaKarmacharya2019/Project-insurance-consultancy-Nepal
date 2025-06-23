@@ -26,3 +26,7 @@
 .features .item-icon-rotate{
     transform: rotate(45deg);
 }
+.feature-title {
+    color: #f0faf2; /* Use any color you want */
+    font-weight: bold;
+}

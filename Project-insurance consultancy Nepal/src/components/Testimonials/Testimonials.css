@@ -23,8 +23,8 @@
     width: 100%;
 }
 .testimonials .item-img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
     margin-right: auto;
@@ -59,4 +59,10 @@
     .testimonials .item-list{
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+.testimonials .item-text {
+    
+    text-align: center;     
+         
 }
