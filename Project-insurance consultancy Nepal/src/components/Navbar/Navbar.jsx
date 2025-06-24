@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import "./Navbar.css";
-import {FaTwitter, FaSkype, FaVimeoV, FaFacebookF} from "react-icons/fa";
+import {FaTwitter, FaFacebookF} from "react-icons/fa";
 import {IoMdRocket} from "react-icons/io";
-
+import { HashLink } from 'react-router-hash-link';
 const Navbar = () => {
 
     const [navToggle, setNavToggle] = useState(false);
@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className='navbar-content flex fw-7'>
                 <div className='brand-and-toggler flex flex-between w-100'>
                                   
-<Link to="#" className='navbar-brand fs-26'>
+<Link to="/" className='navbar-brand fs-26'>
   <img src={require('../../assets/images/logo.jpg')} alt="Logo" style={{ height: '95px' }} />
 </Link>
 
@@ -33,19 +33,22 @@ const Navbar = () => {
                     <div className='navbar-collapse-content'>
                         <ul className='navbar-nav'>
                             <li className='text-white'>
-                                <a href="#about">About</a>
+                                <HashLink smooth to="/#about">About</HashLink>
                             </li>
                             <li className='text-white'>
                                
-                                <a href="#services">Features</a>
+                                 <HashLink smooth to="/#services">Features</HashLink>
                             </li>
+                        <li className='text-white'>
+<Link to="/team"> Team</Link>
+</li>
+<li className='text-white'>
+<Link to="/article">Articles</Link>
+</li>
+
+  
                             <li className='text-white'>
-                               
-                                <a href="#testimonials">Our Team</a>
-                            </li>
-                            <li className='text-white'>
-                                
-                                 <a href="#contact">Contact</a>
+                            <HashLink smooth to="/#contact">Contact</HashLink>
                             </li>
                         </ul>
                         <ul className='navbar-social flex'>

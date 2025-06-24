@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Contact.css";
-import { BsArrowRightCircle } from 'react-icons/bs';
+// import { BsArrowRightCircle } from 'react-icons/bs';
 import sections from '../../constants/data';
 
 const Info = () => {
@@ -17,7 +17,7 @@ const Info = () => {
                                 <div className='item-info-text fw-5 text-white'>{contact.info}</div>
                                 <p className='text'>{contact.text}</p>
                                 <a href = "/" className='item-link text-grey'>
-                                    <BsArrowRightCircle size = {30} />
+                                    {/* <BsArrowRightCircle size = {30} /> */}
                                 </a>
                             </div>
                         )

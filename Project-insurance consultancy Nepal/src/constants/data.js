@@ -140,7 +140,7 @@ const testimonials = [
     },
     {
         id: 20,
-        name: "BK Shrestha",
+        name: "Mr. BK Shrestha",
         text: "Chartered Consultant",
         image: images.customer_img_2,
        
@@ -160,20 +160,20 @@ const contact = [
     {
         id: 25,
         icon: <FaPhoneAlt style = {{ fill: gradient }} />,
-        info: "+425 235 712",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        info: "+977 9851027879 +977 9841200229",
+        text: "Call us anytime for expert insurance advice and personalized support"
     },
     {
         id: 26,
         icon: <FaEnvelopeOpen style = {{ fill: gradient }} />,
-        info: "solnhub@info.com",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        info: "iconktm@gmail.com",
+        text: "Email us your queries or requests and our team will respond promptly."
     },
     {
         id: 27,
         icon: <FaMapMarkerAlt style = {{ fill: gradient }} />,
-        info: "United Kingdom, New Street",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        info: "Subidhanagar Kathmandu Nepal",
+        text: "Visit our office for a face-to-face consultation with our insurance experts"
     }
 ]
 

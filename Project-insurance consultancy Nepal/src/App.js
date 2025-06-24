@@ -9,20 +9,37 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar'; // <-- import Navbar
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Article from './components/Article/Article';
+
+
+function Home() {
+  return (
+    <>
+      <Header />
+      <About />
+      <Qualities />
+      <Services />
+      <Features />
+      <Portfolio />
+      <Contact />
+    </>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-           <About />
-       <Qualities />
-       <Services />
-           <Features />
-      <Portfolio />
-      <Testimonials />
-      <Contact />
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/team" element={<Testimonials />} />
+            <Route path="/article" element={<Article />} /> {/* Add this line */}
+     
+      </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 

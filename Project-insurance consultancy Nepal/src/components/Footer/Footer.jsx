@@ -1,20 +1,31 @@
 import React from 'react';
 import "./Footer.css";
+import logo from '../../assets/images/footer-logo.jpg';
 
 const Footer = () => {
-
-    let date = new Date();
+  let date = new Date();
 
   return (
-    <footer className='footer bg-black flex flex-center' id = "footer">
-        <div className='container flex flex-center w-100'>
-            <div className='grid footer-content text-center'>
-                <p className='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, reprehenderit!</p>
-                <span className='text'>&copy; {date.getFullYear().toString()} SolnHub. Theme</span>
-            </div>
+    <footer className='footer bg-black' id="footer">
+      <div className='container'>
+        <div className='footer-content'>
+          <div className='footer-left'>
+            <img
+              src={logo}
+              alt="Insurance Consultancy Nepal Logo"
+              style={{ width:"auto",height: "49px", verticalAlign: "middle", marginRight: "10px" }}
+            />
+            <span className='footer-message'>
+              Your insurance partner for a complete solution!
+            </span>
+          </div>
+          <span className='footer-copyright'>
+            &copy; {date.getFullYear().toString()} Insurance Consultancy Nepal Pvt. Ltd.
+          </span>
         </div>
+      </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

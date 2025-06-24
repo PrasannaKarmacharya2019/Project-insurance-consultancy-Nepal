@@ -104,3 +104,20 @@
         align-items: center;
     }
 }
+
+
+.contact .section-t .text {
+    font-size: 3rem; /* Increase as needed */
+    line-height: 1.6;
+    color:rgb(255, 255, 255);
+}
+
+.contact-right {
+    min-width: 400px;
+    min-height: 320px;
+   
+}
+
+.contact .section-t h3 {
+    color: rgb(87, 216, 173);
+}
