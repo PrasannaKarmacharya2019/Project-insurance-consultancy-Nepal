@@ -33,23 +33,24 @@ const Navbar = () => {
                     <div className='navbar-collapse-content'>
                         <ul className='navbar-nav'>
                             <li className='text-white'>
-                                <HashLink smooth to="/#about">About</HashLink>
-                            </li>
+                                {/* <HashLink smooth to="/#about">About</HashLink> */}
+                                 <HashLink smooth to="/#about" onClick={() => setNavToggle(false)}>About</HashLink>
+                               </li>
                             <li className='text-white'>
-                               
-                                 <HashLink smooth to="/#services">Features</HashLink>
-                            </li>
+                                    <HashLink smooth to="/#services" onClick={() => setNavToggle(false)}>Features</HashLink>
+                              </li>
                         <li className='text-white'>
-<Link to="/team"> Team</Link>
-</li>
+     <Link to="/team" onClick={() => setNavToggle(false)}>Team</Link>
+ </li>
 <li className='text-white'>
-<Link to="/article">Articles</Link>
+  <Link to="/article" onClick={() => setNavToggle(false)}>Articles</Link>
+  
 </li>
 
   
                             <li className='text-white'>
-                            <HashLink smooth to="/#contact">Contact</HashLink>
-                            </li>
+                           <HashLink smooth to="/#contact" onClick={() => setNavToggle(false)}>Contact</HashLink>
+  </li>
                         </ul>
                         <ul className='navbar-social flex'>
                             <li className='text-white'>

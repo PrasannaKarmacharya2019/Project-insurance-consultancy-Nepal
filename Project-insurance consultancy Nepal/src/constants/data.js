@@ -134,7 +134,7 @@ const testimonials = [
     {
         id: 19,
         name: "Mr. Pradip Mohan Dhaubhadel",
-        text: "Sr. Consultant",
+        text: "Chartered Consultant",
         image: images.customer_img_1,
        
     },
@@ -160,7 +160,7 @@ const contact = [
     {
         id: 25,
         icon: <FaPhoneAlt style = {{ fill: gradient }} />,
-        info: "+977 9851027879 +977 9841200229",
+        info: "+977 9851027879\n+977 9841200229",
         text: "Call us anytime for expert insurance advice and personalized support"
     },
     {

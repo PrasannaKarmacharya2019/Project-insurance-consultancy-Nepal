@@ -27,7 +27,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className='contact-right' style={{  maxWidth: "500px", margin: "0 auto" }}>
+          <div className='contact-right' style={{  maxWidth: "100%", margin: "0 auto", overflow: "hidden" }}>
             
           <Slider
   dots={true}
@@ -49,7 +49,9 @@ const Contact = () => {
           height: "350px",      // Adjust as needed
           objectFit: "contain",   // "cover" for full fit, "contain" for full image
                   borderRadius: "12px",  // Smoother corners
-          boxShadow: "0 4px 16px rgba(0,0,0,0.12)"
+          boxShadow: "0 4px 16px rgba(0,0,0,0.12)",
+       
+           margin: "0 auto"
         }}
       />
     </div>

@@ -121,3 +121,18 @@
 .contact .section-t h3 {
     color: rgb(87, 216, 173);
 }
+
+@media (max-width: 600px) {
+  .contact-right {
+    max-width: 100%;
+    min-width: 0;
+    padding: 0 4px;
+  }
+  .contact-right img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 180px !important;
+    object-fit: contain !important;
+    border-radius: 10px;
+  }
+}
